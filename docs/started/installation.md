@@ -40,7 +40,7 @@ Edit your system’s **hosts** file to map the Nacos hostname (```nacos.openwes.
 * Windows: C:\Windows\System32\drivers\etc\hosts  
 Add the following line to the file:
 
-```172.0.0.1 nacos.openwes.com```
+```127.0.0.1 nacos.openwes.com```
 
 **2.3: Create the OpenWes Database**
 Log into MySQL and create the openwes database:
