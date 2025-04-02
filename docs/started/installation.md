@@ -83,7 +83,7 @@ Run the client application:
 ```npm
 npm start
 ```
-The client will be available on http://localhost:4001 by default.
+The client will be available on http://localhost:4000 by default.
 
 Troubleshooting
 If you encounter any issues during the installation, check the following:
