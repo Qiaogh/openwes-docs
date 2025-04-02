@@ -27,10 +27,13 @@ Follow these steps to install and set up **OpenWes** on your system. OpenWes is 
 ### 2. Set Up the Backend Servers
 
 **2.1 Add Nacos Configuration**  
+
+You can find these scripts from the ```initdb.d``` directory in the root directory
+
 Execute the script to load the Nacos configuration into the MySQL database:
 
 ```sql
-mysql -u root -p nacos_config < server/script/nacos_config.sql
+mysql -u root -p nacos_config < nacos_config.sql
 ```
 **2.2: Configure the Hostname**
 
